@@ -1,0 +1,140 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/port.css">
+    <link rel="icon" type="image/x-icon" href="./picture/logo.jpg">
+    <script src="./calculator.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/852c0308b0.js" crossorigin="anonymous"></script>
+    <title>Portfolio</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-sm fixed-top">
+      <a class="navbar-brand" href="#home">
+        <img src="./picture/logo.jpg" class="logo">HOME</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#NavBar" 
+      aria-controls="NavBar" aria-expanded="true">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end ps-5" id="NavBar">
+        <ul class="navbar-nav text-end">
+          <li class="nav-item">
+            <a class="nav-link" href="#home">
+              <i class="fa fa-solid fa-home"></i>
+              <span class="navtxt">Home</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#aboutme">
+              <i class="fa fa-solid fa-user"></i>
+              <span class="navtxt">Profile Page</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#activity">
+              <i class="fa fa-solid fa-folder"></i>
+              <span class="navtxt">Activity</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#gallery">
+              <i class="fa fa-solid fa-image"></i>
+              <span class="navtxt">Gallery</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+  </nav>
+  <div class="contain">
+  <div id="home" class="row">
+    <div class="txt1 col-sm-12 row">
+      <div class="top col-12">
+      <p><span class="hi">Hi!</span>&nbsp;I am</p><h3>Addy Marc H. Bellina</h3>
+      <br>
+      <div class="bot">
+        <p>Future Web <span class="fut">Developer</span><span class="smoltxt"><br>As studet who strive for knowledge, will walk throught challenges</span></p> 
+        <h5><a href="#aboutme"><span class="arrow">&#8595 &nbsp; More About Me</span></a></h5>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="aboutme" class="row about-us">
+  <div class="col-md-12">
+      <div class="title">
+          <h2>About <span>Us</span></h2>   
+      </div>
+      <div class="row align-items-center about-content">
+          <div class="col-md-5 ">
+              <div class="about-img"></div>
+          </div>
+          <div class="col-md-7">
+              <div class="text"> 
+                  <p>Welcome to my portfolio website! I am a dedicated Bachelor of Science in Information Technology (BSIT) student passionate about technology and its limitless possibilities. With a thirst for knowledge and a drive for excellence, I'm constantly seeking opportunities to enhance my skills and stay up-to-date with the latest industry trends. </p>
+                  <p><span class="suwat">Addy Marc H. Bellina -</span> 19 years old. I as a BS Information Technology student we strive to learn, I've seen a great oppurtunity in this field that will help us achieve our dreams. I"m learning the fundamental concept, improve our skills and gain knowledge on Web development</p>
+                  <p><span class="suwat">School -</span>Cordova Public College</p>
+                  <p><span class="suwat">Hobbies -</span>Video Games</p>
+              </div>
+          </div>
+          <div class="col-md-12">
+            <div class="text2">
+              <p>We Thank You For Visiting Our Portfolio!!</p>
+            </div>
+          </div>
+      </div>
+  </div>
+</div>
+<div id="activity">
+    <div class="boxact">
+        <h1><span>My</span> App</h1>
+        <p>App Name</p> 
+        <br>
+        <p class="here">Link here</p>
+        <a href="./apphtml/addyapp.html"><i class="fas fa-paperclip"></i></a>
+    </div>
+</div>
+<div id="contactus" class="row">
+  <form id="contact-form" class="col-10 row">
+    <h1 class="bullshit mb-5">Contact<span class="us">Us</span></h1>
+  <div id="check-boxes-division" class="row-12">
+  <div class="row">  
+            <label for="name" id="name-label" class="col">
+              <h6>Last Name:</h6>
+              <input class="col-12" type="text" id="lname" placeholder="Last Name" required>
+            </label> 
+            <label for="name" id="name-label" class="col">      
+                <h6>First Name:</h6>
+                <input class="col-12" type="text" id="fname" placeholder="First Name" required>
+            </label>
+            <label for="name" id="name-label" class="col">
+              <h6>Middle Name:</h6>
+              <input class="col-11" type="text" id="midname" placeholder="Middle Name" required>
+            </label>  
+            <div class="row">
+              <label for="email" id="emailsec" class="col" >
+                <h6>Email:</h6>
+                <input type="text" class="col-12" id="mail" placeholder="Enter Email">
+              </label>
+              <label for="phoneNumber" id="phonenum" class="col">      
+                <h6 class="nom">Contact No:</h6>
+                <input type="text" class="col-12" id="mail" placeholder="+1 (415) 867-5309"></label>
+              </div>
+              <div class="comms">      
+                <label for="comment-section" id="comment-part"  class="flex-column-class">
+                <br>
+                <h5>Message Us: </h5>
+                <textarea id="comment-section" name="comment" rows="11">
+                </textarea>
+                <h3></h3>
+                </label>
+              </div>        
+  </div>  
+  </div>
+  <input type="submit" id="submit" class="col-6" >
+  </form>
+  </div>
+</body>
+</html>
